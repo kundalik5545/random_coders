@@ -1,9 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import { ModeToggle } from "./ModeToggle";
-import { Menu, Transition } from "lucide-react";
-import { Fragment } from "react";
-import { ChevronDownIcon } from "lucide-react";
+import { CodeXml } from "lucide-react";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,7 +10,12 @@ const Navigation = () => {
   return (
     <div className="p-4 border-b border-border bg-background text-foreground shadow-md">
       <div className="flex justify-between items-center">
-        <h1 className="text-xl font-bold">{websiteName}</h1>
+        <div className="website-name flex space-x-1 items-center">
+          <span className="logo">
+            <CodeXml />
+          </span>
+          <h1 className="text-xl font-bold">{websiteName}</h1>
+        </div>
         <div className="flex items-center space-x-4">
           <nav className="hidden md:flex space-x-4">
             <a href="/" className="hover:text-primary">

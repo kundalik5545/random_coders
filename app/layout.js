@@ -2,6 +2,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/CustomeComp/theme-provider";
 import Navigation from "@/components/CustomeComp/Navigation";
+import SocialSharePage from "@/components/CustomeComp/SocialShare";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -27,6 +28,9 @@ export default function RootLayout({ children }) {
             <Navigation />
           </nav>
           <main className="container mx-auto my-3">{children}</main>
+          <footer>
+            <SocialSharePage />
+          </footer>
         </ThemeProvider>
       </body>
     </html>
