@@ -49,7 +49,7 @@ export default function RootLayout({ children }) {
           <nav>
             <Navigation />
           </nav>
-          <main className="container mx-auto my-3 min-h-screen">
+          <main className="container mx-auto max-w-7xl my-3 min-h-screen">
             {children}
           </main>
           <footer>
