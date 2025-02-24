@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { ModeToggle } from "./ModeToggle";
 import { CodeXml } from "lucide-react";
+import Link from "next/link";
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,7 +15,11 @@ const Navigation = () => {
           <span className="logo">
             <CodeXml />
           </span>
-          <h1 className="text-xl font-bold">{websiteName}</h1>
+          <h1 className="text-xl font-bold">
+            <Link href="/" aria-label="Random Coders">
+              {websiteName}
+            </Link>
+          </h1>
         </div>
         <div className="flex items-center space-x-4">
           <nav className="hidden md:flex space-x-4">
@@ -23,6 +28,9 @@ const Navigation = () => {
             </a>
             <a href="/about" className="hover:text-primary">
               About
+            </a>
+            <a href="/aboutus" className="hover:text-primary">
+              About Us
             </a>
             <a href="/contact" className="hover:text-primary">
               Contact
@@ -51,7 +59,7 @@ const Navigation = () => {
           <a href="/contact" className="block hover:text-primary">
             Contact
           </a>
-          <a href="/blog" className="block hover:text-primary">
+          <a href="/blogs" className="block hover:text-primary">
             Blog
           </a>
         </nav>

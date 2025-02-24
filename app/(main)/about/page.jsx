@@ -22,6 +22,9 @@ const AboutPage = () => {
           their coding skills. Stay updated with best practices, tutorials, and
           hands-on projects to sharpen your expertise.
         </p>
+
+        <p>By -</p>
+        <p>Random Coders...</p>
       </blockquote>
     </div>
   );
