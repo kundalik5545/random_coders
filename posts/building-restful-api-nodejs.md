@@ -1,15 +1,15 @@
 ---
-id: 1
-title: "What is Html?"
+id: 3
+title: "Building a RESTful API with Node.js"
 date: "2025-02-18"
 author: "Kundalik Jadhav"
 description: "Learn the basics of HTML..."
 image: "/images/blogs/b1.jpg"
 category: "Web Development"
-slug: "what-is-html"
+slug: "building-restful-api-nodejs"
 ---
 
-HTML, or HyperText Markup Language, is the standard language used to create web pages. It provides the structure of a webpage, allowing you to define elements such as headings, paragraphs, links, images, and more. HTML is a fundamental technology that, along with CSS and JavaScript, forms the backbone of the web.
+Step-by-step guide to building a RESTful API using Node.js and Express. Learn how to handle requests, responses, and data storage.
 
 ## Basic Structure of an HTML Document
 

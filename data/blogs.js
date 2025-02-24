@@ -1,15 +1,14 @@
 export const blogs = [
   {
     id: 1,
-    title:
-      "Getting Started with Next.js 100+ JavaScript Projects For Beginners With Source Code",
+    title: "What is Html?",
     description:
-      "Learn the basics of Next.js and how to build scalable web applications with ease. This guide covers everything from setup to deployment.Learn the basics of Next.js and how to build scalable web applications with ease. This guide covers everything from setup to deployment.",
+      "Get started with TypeScript, a typed superset of JavaScript that compiles to plain JavaScript. Learn the basics and advanced features.",
     image: "/images/blogs/b1.jpg",
-    author: "",
-    date: "2025-02-20",
-    category: "Web Development",
-    slug: "getting-started-with-nextjs",
+    author: "Charlie Davis",
+    date: "2025-02-05",
+    category: "Programming Languages",
+    slug: "what-is-html",
   },
   {
     id: 2,
@@ -32,27 +31,5 @@ export const blogs = [
     date: "2025-02-15",
     category: "Backend Development",
     slug: "building-restful-api-nodejs",
-  },
-  {
-    id: 4,
-    title: "Understanding CSS Grid Layout",
-    description:
-      "Explore the powerful CSS Grid Layout system. Learn how to create complex, responsive web layouts with ease.",
-    image: "/images/blogs/b4.jpg",
-    author: "Bob Brown",
-    date: "2025-02-10",
-    category: "Web Design",
-    slug: "understanding-css-grid",
-  },
-  {
-    id: 5,
-    title: "Introduction to TypeScript",
-    description:
-      "Get started with TypeScript, a typed superset of JavaScript that compiles to plain JavaScript. Learn the basics and advanced features.",
-    image: "/images/blogs/b1.jpg",
-    author: "Charlie Davis",
-    date: "2025-02-05",
-    category: "Programming Languages",
-    slug: "introduction-to-typescript",
   },
 ];

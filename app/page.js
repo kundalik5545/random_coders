@@ -68,7 +68,7 @@ const HomePage = () => {
                 {/* Read More Link */}
                 <div className="mt-4">
                   <Link
-                    href={`/blogs/${blog.slug}`}
+                    href={`/post/${blog.slug}`}
                     className="text-blue-500 hover:underline"
                   >
                     <Button className="hover:bg-blue-400">Read More →</Button>

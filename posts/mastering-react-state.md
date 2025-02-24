@@ -1,15 +1,15 @@
 ---
-id: 1
-title: "What is Html?"
+id: 2
+title: "Mastering React State Management"
 date: "2025-02-18"
 author: "Kundalik Jadhav"
-description: "Learn the basics of HTML..."
-image: "/images/blogs/b1.jpg"
+description: "A deep dive into state management using React and modern libraries like Redux and MobX. Understand the best practices and patterns."
+image: "/images/blogs/b2.jpg"
 category: "Web Development"
-slug: "what-is-html"
+slug: "mastering-react-state"
 ---
 
-HTML, or HyperText Markup Language, is the standard language used to create web pages. It provides the structure of a webpage, allowing you to define elements such as headings, paragraphs, links, images, and more. HTML is a fundamental technology that, along with CSS and JavaScript, forms the backbone of the web.
+A deep dive into state management using React and modern libraries like Redux and MobX. Understand the best practices and patterns.
 
 ## Basic Structure of an HTML Document
 
