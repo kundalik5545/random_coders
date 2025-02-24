@@ -41,13 +41,12 @@ const HomePage = () => {
             <div className="md:w-2/3 p-4 flex flex-col justify-between">
               <div>
                 <h2 className="text-xl font-semibold">{blog.title}</h2>
-                <p className="text-gray-600 dark:text-gray-300 text-sm mt-2">
+                <p className="text-gray-600 dark:text-gray-300 text-sm mt-2 mb-4">
                   {blog.description.slice(0, 150)}...
                 </p>
               </div>
 
               <div>
-                <hr />
                 {/* Meta Info */}
                 <div className="text-sm text-gray-500 dark:text-gray-400 mt-4">
                   <p className="flex space-x-2">
@@ -72,7 +71,7 @@ const HomePage = () => {
                     href={`/blogs/${blog.slug}`}
                     className="text-blue-500 hover:underline"
                   >
-                    <Button>Read More →</Button>
+                    <Button className="hover:bg-blue-400">Read More →</Button>
                   </Link>
                 </div>
               </div>
