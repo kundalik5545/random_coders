@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const metadata = {
-  title: "Random Coders | Latest Blogs",
+  title: `${process.env.NEXT_PUBLIC_WEBSITE_NAME} | Latest Blogs`,
   description:
     "Explore the latest blogs on web development, coding projects, and open-source contributions. Learn, Build, and Collaborate with Random Coders!",
   keywords:
@@ -50,9 +50,12 @@ const HomePage = () => {
                 {/* Meta Info */}
                 <div className="text-sm text-gray-500 dark:text-gray-400 mt-4">
                   <p className="flex space-x-2">
-                    <strong>Author:</strong> {blog.author || "Random Coders"} |{" "}
+                    <strong>Author: </strong>{" "}
+                    <span className="ml-1">
+                      {blog.author || "Random Coders"}
+                    </span>
                     <span className="flex items-center">
-                      <Clock5 size={20} className="mr-1" />
+                      <Clock5 size={18} className="mr-1" />
                       {new Date(blog.date).toLocaleDateString("en-US", {
                         year: "numeric",
                         month: "long",
@@ -68,7 +71,7 @@ const HomePage = () => {
                 {/* Read More Link */}
                 <div className="mt-4">
                   <Link
-                    href={`/blogpost/${blog.slug}`}
+                    href={`/blog/${blog.slug}`}
                     className="text-blue-500 hover:underline"
                   >
                     <Button className="hover:bg-blue-400">Read More →</Button>
