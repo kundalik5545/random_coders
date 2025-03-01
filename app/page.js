@@ -6,8 +6,7 @@ import Link from "next/link";
 
 export const metadata = {
   title: `${process.env.NEXT_PUBLIC_WEBSITE_NAME} | Latest Blogs`,
-  description:
-    "Explore the latest blogs on web development, coding projects, and open-source contributions. Learn, Build, and Collaborate with Random Coders!",
+  description: `${process.env.NEXT_PUBLIC_WEBSITE_DESCRIPTION}`,
   keywords:
     "coding blogs, web development, programming, open-source projects, software development",
   robots: "index, follow",
@@ -71,7 +70,7 @@ const HomePage = () => {
                 {/* Read More Link */}
                 <div className="mt-4">
                   <Link
-                    href={`/blog/${blog.slug}`}
+                    href={`/post/${blog.slug}`}
                     className="text-blue-500 hover:underline"
                   >
                     <Button className="hover:bg-blue-400">Read More →</Button>
