@@ -1,5 +1,5 @@
 "use client";
-import { User } from "lucide-react";
+import { Code, User } from "lucide-react";
 import React, { useState } from "react";
 import { ModeToggle } from "./ModeToggle";
 import Link from "next/link";
@@ -22,7 +22,7 @@ const Navigation = () => {
   return (
     <nav className="fixed top-0 w-full mx-auto py-4 bg-white/80 dark:bg-black/80 flex justify-between items-center px-5 shadow-lg dark:shadow-white/20">
       <div className="logo flex items-center gap-2 text-foreground">
-        <User aria-hidden="true" />
+        <Code aria-hidden="true" />
         <Link href="/" title="Personal Finance">
           <span className="font-semibold text-lg">
             {process.env.NEXT_PUBLIC_WEBSITE_NAME}

@@ -8,7 +8,7 @@ export const metadata = {
   title: `${process.env.NEXT_PUBLIC_WEBSITE_NAME} | Latest Blogs`,
   description: `${process.env.NEXT_PUBLIC_WEBSITE_DESCRIPTION}`,
   keywords:
-    "coding blogs, web development, programming, open-source projects, software development",
+    "coding blogs, web development, programming, open-source projects, software development, testing, automation testing",
   robots: "index, follow",
 };
 
